@@ -31,7 +31,7 @@ int count_lines(string file_path) {
   int ret = 0;
   ifstream file(file_path);
   string tmp;
-  while(file >> tmp)
+  while(getline(file, tmp))
     ++ret;
   file.close();
   return ret;
