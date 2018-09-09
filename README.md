@@ -5,7 +5,7 @@ Count the number of lines in directory tree with specific files extensions
 
 I was trying to count how many lines I've written while solving competitive programming problems.
 
-## How to use this?
+## How to use it?
 
 - Compile `main.cpp` file with `gcc` or any other compiler.
 - Run the executable file with `FILE_NAME PATH EXT [EXT [EXT [...]]]`.
@@ -30,6 +30,6 @@ Total number of files is 1102
 Total number of lines is 47884
 ```
 
-## How it is work?
+## How it works?
 
 When you run the compiled file and give it the `PATH` argument with some `EXT`'s, the code will open the directory in `PATH` and using `BFS` algorithm, it will try to reach all files that end with any `EXT` in the current directory and all other directories inside it.
