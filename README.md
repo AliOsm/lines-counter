@@ -33,3 +33,9 @@ Total number of lines is 47884
 ## How it works?
 
 When you run the compiled file and give it the `PATH` argument with some `EXT`'s, the code will open the directory in `PATH` and using `BFS` algorithm, it will try to reach all files that end with any `EXT` in the current directory and all other directories inside it.
+
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/AliOsm/lines-counter.
+
+## License
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
